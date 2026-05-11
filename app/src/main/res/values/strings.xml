@@ -63,4 +63,9 @@
         <item>Leftward movement beats a lot of options here.</item>
     </string-array>
 
+    <string-array name="nina_neutral_notes">
+        <item>df1 tracks weak side.</item>
+        <item>df1,2 follow-ups weak to SSR.</item>
+    </string-array>
+
 </resources>

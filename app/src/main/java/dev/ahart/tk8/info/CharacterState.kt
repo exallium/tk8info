@@ -234,7 +234,13 @@ private fun getMiaryCharacterStates(): List<CharacterState> {
 
 @RememberInComposition
 private fun getNinaCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      bullets = R.array.nina_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
