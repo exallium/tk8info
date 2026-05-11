@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">TK8 Info</string>
+
+    <string name="alisa">Alisa</string>
+    <string name="anna">Anna</string>
+    <string name="armor_king">Armor King</string>
+    <string name="asuka">Asuka</string>
+    <string name="azucena">Azucena</string>
+    <string name="bryan">Bryan</string>
+    <string name="claudio">Claudio</string>
+    <string name="clive">Clive</string>
+    <string name="devil_jin">Devil Jin</string>
+    <string name="dragunov">Dragunov</string>
+    <string name="eddy">Eddy</string>
+    <string name="fahkumram">Fahkumram</string>
+    <string name="feng">Feng</string>
+    <string name="heihachi">Heihachi</string>
+    <string name="hwoarang">Hwoarang</string>
+    <string name="jack_8">Jack-8</string>
+    <string name="jin">Jin</string>
+    <string name="jun">Jun</string>
+    <string name="kazuya">Kazuya</string>
+    <string name="king">King</string>
+    <string name="kuma">Kuma</string>
+    <string name="lars">Lars</string>
+    <string name="law">Law</string>
+    <string name="lee">Lee</string>
+    <string name="leo">Leo</string>
+    <string name="leroy">Leroy</string>
+    <string name="lidia">Lidia</string>
+    <string name="lili">Lili</string>
+    <string name="miary">Miary</string>
+    <string name="nina">Nina</string>
+    <string name="panda">Panda</string>
+    <string name="paul">Paul</string>
+    <string name="raven">Raven</string>
+    <string name="reina">Reina</string>
+    <string name="shaheen">Shaheen</string>
+    <string name="steve">Steve</string>
+    <string name="victor">Victor</string>
+    <string name="xiaoyu">Xiaoyu</string>
+    <string name="yoshimitsu">Yoshimitsu</string>
+    <string name="zafina">Zafina</string>
+
+    <string name="neutral_name">Neutral</string>
+    <string name="neutral_code">N</string>
+    
+    <string name="alisa_destructive_form_name">Destructive Form</string>
+    <string name="alisa_destructive_form_code">DES</string>
+    <string-array name="alisa_destructive_form_notes">
+        <item>SWL beats most of this stance.</item>
+        <item>Needs to use high or low to continue pressure.</item>
+    </string-array>
+
+    <string-array name="bryan_neutral_notes">
+        <item>SWL after B1 or Hatchet will avoid most followups.</item>
+    </string-array>
+
+    <string name="leo_knk_name">Jin Ji Du Li</string>
+    <string name="leo_knk_code">KNK</string>
+    <string-array name="leo_knk_notes">
+        <item>Raises foot into air, normally enters at +9</item>
+        <item>Leftward movement beats a lot of options here.</item>
+    </string-array>
+
+</resources>
