@@ -18,7 +18,7 @@ data class CharacterState(
   val code: Int,
 
   @get:ArrayRes
-  val bullets: Int,
+  val notes: Int,
 )
 
 @Composable
@@ -73,9 +73,9 @@ fun rememberCharacterStates(character: TK8Info): List<CharacterState> {
 private fun getAlisaCharacterStates(): List<CharacterState> {
   return listOf(
     CharacterState(
-      fullName = R.string.alisa_destructive_form_name,
-      code = R.string.alisa_destructive_form_code,
-      bullets = R.array.alisa_destructive_form_notes
+      fullName = R.string.alisa_des_name,
+      code = R.string.alisa_des_code,
+      notes = R.array.alisa_des_notes
     )
   )
 }
@@ -106,7 +106,7 @@ private fun getBryanCharacterStates(): List<CharacterState> {
     CharacterState(
       fullName = R.string.neutral_name,
       code = R.string.neutral_code,
-      bullets = R.array.bryan_neutral_notes
+      notes = R.array.bryan_neutral_notes
     )
   )
 }
@@ -168,7 +168,13 @@ private fun getJinCharacterStates(): List<CharacterState> {
 
 @RememberInComposition
 private fun getJunCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.jun_izu_name,
+      code = R.string.jun_izu_code,
+      notes = R.array.jun_izu_notes
+    )
+  )
 }
 
 @RememberInComposition
@@ -207,7 +213,7 @@ private fun getLeoCharacterStates(): List<CharacterState> {
     CharacterState(
       fullName = R.string.leo_knk_name,
       code = R.string.leo_knk_code,
-      bullets = R.array.leo_knk_notes
+      notes = R.array.leo_knk_notes
     )
   )
 }
@@ -238,7 +244,7 @@ private fun getNinaCharacterStates(): List<CharacterState> {
     CharacterState(
       fullName = R.string.neutral_name,
       code = R.string.neutral_code,
-      bullets = R.array.nina_neutral_notes
+      notes = R.array.nina_neutral_notes
     )
   )
 }

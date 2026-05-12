@@ -45,15 +45,23 @@
     <string name="neutral_name">Neutral</string>
     <string name="neutral_code">N</string>
     
-    <string name="alisa_destructive_form_name">Destructive Form</string>
-    <string name="alisa_destructive_form_code">DES</string>
-    <string-array name="alisa_destructive_form_notes">
+    <string name="alisa_des_name">Destructive Form</string>
+    <string name="alisa_des_code">DES</string>
+    <string-array name="alisa_des_notes">
         <item>SWL beats most of this stance.</item>
         <item>Needs to use high or low to continue pressure.</item>
     </string-array>
 
     <string-array name="bryan_neutral_notes">
         <item>SWL after B1 or Hatchet will avoid most followups.</item>
+    </string-array>
+
+    <string name="jun_izu_name">Izumo</string>
+    <string name="jun_izu_code">IZU</string>
+    <string-array name="jun_izu_notes">
+        <item>SSR-Duck all options except IZU.2 and IZU.B1+2</item>
+        <item>IZU.2 is -13 and can be SWL</item>
+        <item>IZU.B1+2 is -9 and is i16 homing</item>
     </string-array>
 
     <string name="leo_knk_name">Jin Ji Du Li</string>

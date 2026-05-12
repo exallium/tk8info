@@ -80,7 +80,7 @@ fun CharacterDetailPane(spriteIndex: Int) {
           SectionHeader(
             "${stringResource(state.fullName)} · ${stringResource(state.code)}"
           )
-          stringArrayResource(state.bullets).forEach { bullet ->
+          stringArrayResource(state.notes).forEach { bullet ->
             BulletRow(bullet)
           }
         }
