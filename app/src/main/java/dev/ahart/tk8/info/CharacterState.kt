@@ -225,7 +225,13 @@ private fun getLeroyCharacterStates(): List<CharacterState> {
 
 @RememberInComposition
 private fun getLidiaCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.lidia_hrs_name,
+      code = R.string.lidia_hrs_code,
+      notes = R.array.lidia_hrs_notes
+    )
+  )
 }
 
 @RememberInComposition
@@ -266,7 +272,13 @@ private fun getRavenCharacterStates(): List<CharacterState> {
 
 @RememberInComposition
 private fun getReinaCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.reina_sen_name,
+      code = R.string.reina_sen_code,
+      notes = R.array.reina_sen_notes
+    )
+  )
 }
 
 @RememberInComposition

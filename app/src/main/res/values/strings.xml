@@ -71,9 +71,24 @@
         <item>Leftward movement beats a lot of options here.</item>
     </string-array>
 
+    <string name="lidia_hrs_name">Horse Stance</string>
+    <string name="lidia_hrs_code">HRS</string>
+    <string-array name="lidia_hrs_notes">
+        <item>After FF2, SSR-Duck beats every option except HRS.3</item>
+        <item>After FF2, Down Jab covers the same, Jab beats HRS.3</item>
+        <item>After H.FF2, utilize armor or parries.</item>
+    </string-array>
+
     <string-array name="nina_neutral_notes">
         <item>df1 tracks weak side.</item>
         <item>df1,2 follow-ups weak to SSR.</item>
+    </string-array>
+
+    <string name="reina_sen_name">Sentai</string>
+    <string name="reina_sen_code">SEN</string>
+    <string-array name="reina_sen_notes">
+        <item>After FF2, Jab challenge is best.</item>
+        <item>SEN.3 and SEN.3+4 beat jab but can be ducked and launched.</item>
     </string-array>
 
 </resources>
