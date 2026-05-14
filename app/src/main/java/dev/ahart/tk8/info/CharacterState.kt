@@ -73,6 +73,11 @@ fun rememberCharacterStates(character: TK8Info): List<CharacterState> {
 private fun getAlisaCharacterStates(): List<CharacterState> {
   return listOf(
     CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.alisa_neutral_notes
+    ),
+    CharacterState(
       fullName = R.string.alisa_des_name,
       code = R.string.alisa_des_code,
       notes = R.array.alisa_des_notes
@@ -82,22 +87,46 @@ private fun getAlisaCharacterStates(): List<CharacterState> {
 
 @RememberInComposition
 private fun getAnnaCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.anna_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getArmorKingCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.armor_king_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getAsukaCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.asuka_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getAzucenaCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.azucena_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
@@ -113,62 +142,133 @@ private fun getBryanCharacterStates(): List<CharacterState> {
 
 @RememberInComposition
 private fun getClaudioCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.claudio_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getCliveCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.clive_phx_name,
+      code = R.string.clive_phx_code,
+      notes = R.array.clive_phx_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getDevilJinCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.devil_jin_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getDragunovCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.dragunov_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getEddyCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.eddy_hsp_name,
+      code = R.string.eddy_hsp_code,
+      notes = R.array.eddy_hsp_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getFahkumramCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.fahkumram_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getFengCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.feng_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getHeihachiCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.heihachi_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getHwoarangCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.hwoarang_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getJack8CharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.jack_8_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getJinCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.jin_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getJunCharacterStates(): List<CharacterState> {
   return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.jun_neutral_notes
+    ),
     CharacterState(
       fullName = R.string.jun_izu_name,
       code = R.string.jun_izu_code,
@@ -179,12 +279,24 @@ private fun getJunCharacterStates(): List<CharacterState> {
 
 @RememberInComposition
 private fun getKazuyaCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.kazuya_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getKingCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.king_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
@@ -194,22 +306,45 @@ private fun getKumaCharacterStates(): List<CharacterState> {
 
 @RememberInComposition
 private fun getLarsCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.lars_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getLawCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.law_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getLeeCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.lee_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getLeoCharacterStates(): List<CharacterState> {
   return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.leo_neutral_notes
+    ),
     CharacterState(
       fullName = R.string.leo_knk_name,
       code = R.string.leo_knk_code,
@@ -220,7 +355,13 @@ private fun getLeoCharacterStates(): List<CharacterState> {
 
 @RememberInComposition
 private fun getLeroyCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.leroy_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
@@ -236,12 +377,24 @@ private fun getLidiaCharacterStates(): List<CharacterState> {
 
 @RememberInComposition
 private fun getLiliCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.lili_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getMiaryCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.miary_bao_name,
+      code = R.string.miary_bao_code,
+      notes = R.array.miary_bao_notes
+    )
+  )
 }
 
 @RememberInComposition
@@ -262,17 +415,34 @@ private fun getPandaCharacterStates(): List<CharacterState> {
 
 @RememberInComposition
 private fun getPaulCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.paul_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getRavenCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.raven_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getReinaCharacterStates(): List<CharacterState> {
   return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.reina_neutral_notes
+    ),
     CharacterState(
       fullName = R.string.reina_sen_name,
       code = R.string.reina_sen_code,
@@ -283,30 +453,66 @@ private fun getReinaCharacterStates(): List<CharacterState> {
 
 @RememberInComposition
 private fun getShaheenCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.shaheen_snk_name,
+      code = R.string.shaheen_snk_code,
+      notes = R.array.shaheen_snk_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getSteveCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.steve_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getVictorCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.victor_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getXiaoyuCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.xiaoyu_bt_name,
+      code = R.string.xiaoyu_bt_code,
+      notes = R.array.xiaoyu_bt_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getYoshimitsuCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.neutral_name,
+      code = R.string.neutral_code,
+      notes = R.array.yoshimitsu_neutral_notes
+    )
+  )
 }
 
 @RememberInComposition
 private fun getZafinaCharacterStates(): List<CharacterState> {
-  return emptyList()
+  return listOf(
+    CharacterState(
+      fullName = R.string.zafina_trt_name,
+      code = R.string.zafina_trt_code,
+      notes = R.array.zafina_trt_notes
+    )
+  )
 }

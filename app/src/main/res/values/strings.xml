@@ -44,6 +44,11 @@
 
     <string name="neutral_name">Neutral</string>
     <string name="neutral_code">N</string>
+
+    <string-array name="alisa_neutral_notes">
+        <item>Move. Backdash, SSL, duck, etc.</item>
+        <item>Keep-out tools are quite good.</item>
+    </string-array>
     
     <string name="alisa_des_name">Destructive Form</string>
     <string name="alisa_des_code">DES</string>
@@ -52,8 +57,73 @@
         <item>Needs to use high or low to continue pressure.</item>
     </string-array>
 
+    <string-array name="anna_neutral_notes">
+        <item>Bait FF2 with movements, and whiff punish.</item>
+        <item>Keepout can be very effective.</item>
+    </string-array>
+
+    <string-array name="armor_king_neutral_notes">
+        <item>Move a lot. SSR and backdash.</item>
+        <item>If SS2 hits, you can SSL and avoid followups if spaced well.</item>
+    </string-array>
+
+    <string-array name="asuka_neutral_notes">
+        <item>Try not to duck a lot, prefer lateral movement and backdash. Once they start using their lows, mix in keepout tools.</item>
+    </string-array>
+
+    <string-array name="azucena_neutral_notes">
+        <item>Always challenge WR3,2 with down-jab.</item>
+    </string-array>
+
     <string-array name="bryan_neutral_notes">
         <item>SWL after B1 or Hatchet will avoid most followups.</item>
+        <item>At the wall, don\'t tech roll. Better to side roll.</item>
+    </string-array>
+
+    <string-array name="claudio_neutral_notes">
+        <item>Move a lot in neutral to counteract WR2</item>
+    </string-array>
+
+    <string name="clive_phx_name">Phoenix Shift</string>
+    <string name="clive_phx_code">PHX</string>
+    <string-array name="clive_phx_notes">
+        <item>After B2, jab or down-jab. Jab beats PC, down-jab beats low.</item>
+    </string-array>
+
+    <string-array name="devil_jin_neutral_notes">
+        <item>SSR into duck at range to avoid electric and hellsweep.</item>
+    </string-array>
+
+    <string-array name="dragunov_neutral_notes">
+        <item>After B4,2 you can press buttons. Once they start pressing the high, duck and launch.</item>
+    </string-array>
+
+    <string-array name="fahkumram_neutral_notes">
+        <item>SSR a LOT. This helps avoid jet kick.</item>
+    </string-array>
+
+    <string-array name="feng_neutral_notes">
+        <item>After DF1, a down-jab will beat all common options. Once they start to side step, utilize a fast CH button.</item>
+    </string-array>
+
+    <string-array name="heihachi_neutral_notes">
+        <item>SSR after df1 as a layer 0.</item>
+    </string-array>
+
+    <string-array name="hwoarang_neutral_notes">
+        <item>In either Flamingo stance, down-jab whenever you think he is plus.</item>
+    </string-array>
+
+    <string-array name="jack_8_neutral_notes">
+        <item>Always low parry his lows.</item>
+    </string-array>
+
+    <string-array name="jin_neutral_notes">
+        <item>SSR a lot in open neutral to force CD1 etc.</item>
+    </string-array>
+
+    <string-array name="jun_neutral_notes">
+        <item>Interrupt after FC.df2 (low slap) with down-jab.</item>
     </string-array>
 
     <string name="jun_izu_name">Izumo</string>
@@ -64,11 +134,40 @@
         <item>IZU.B1+2 is -9 and is i16 homing</item>
     </string-array>
 
+    <string-array name="kazuya_neutral_notes">
+        <item>When you get knocked down, stay down and side roll.</item>
+    </string-array>
+
+    <string-array name="king_neutral_notes">
+        <item>When they use muscle armor, run up and throw them.</item>
+    </string-array>
+
+    <string-array name="lars_neutral_notes">
+        <item>After low-X into stance, down-jab to counteract mix. Once they start to use WS4 there, start stepping.</item>
+        <item>Prefer low-parry over block low.</item>
+    </string-array>
+
+    <string-array name="law_neutral_notes">
+        <item>After B1,2 SWL and launch.</item>
+    </string-array>
+
+    <string-array name="lee_neutral_notes">
+        <item>Utilize jabs for keepout. Once they adjust, start trying to get a read on move times and launch.</item>
+    </string-array>
+
+    <string-array name="leo_neutral_notes">
+        <item>SSR UF2,1 (second hit). Once they start stance cancelling, use PC.</item>
+    </string-array>
+
     <string name="leo_knk_name">Jin Ji Du Li</string>
     <string name="leo_knk_code">KNK</string>
     <string-array name="leo_knk_notes">
         <item>Raises foot into air, normally enters at +9</item>
         <item>Leftward movement beats a lot of options here.</item>
+    </string-array>
+
+    <string-array name="leroy_neutral_notes">
+        <item>After blocking the safe low, throw them.</item>
     </string-array>
 
     <string name="lidia_hrs_name">Horse Stance</string>
@@ -79,9 +178,35 @@
         <item>After H.FF2, utilize armor or parries.</item>
     </string-array>
 
+    <string-array name="lili_neutral_notes">
+        <item>Dance with her. She is very linear.</item>
+        <item>Hold back on using plus frames when she\'s at low health.</item>
+    </string-array>
+
+    <string name="miary_bao_name">Baobab Mihira</string>
+    <string name="miary_bao_code">BAO</string>
+    <string-array name="miary_bao_notes">
+        <item>You can jab check her whenever she enters this stance. Can be character dependent.</item>
+        <item>If jab doesn\'t work try other fast highs.</item>
+        <item>If they start using BAO.1 you can duck or SS</item>
+    </string-array>
+
     <string-array name="nina_neutral_notes">
+        <item>Backdash a lot instead of stepping.</item>
         <item>df1 tracks weak side.</item>
         <item>df1,2 follow-ups weak to SSR.</item>
+    </string-array>
+
+    <string-array name="paul_neutral_notes">
+        <item>KBD or Hayashida to create space and avoid getting mixed.</item>
+    </string-array>
+
+    <string-array name="raven_neutral_notes">
+        <item>After golden clones, sidestep, as they tend to down-jab.</item>
+    </string-array>
+
+    <string-array name="reina_neutral_notes">
+        <item>After FF2, down-jab as a layer 1. Once they start beating down-jab, SSR</item>
     </string-array>
 
     <string name="reina_sen_name">Sentai</string>
@@ -91,4 +216,39 @@
         <item>SEN.3 and SEN.3+4 beat jab but can be ducked and launched.</item>
     </string-array>
 
+    <string name="shaheen_snk_name">Stealth Step</string>
+    <string name="shaheen_snk_code">SNK</string>
+    <string-array name="shaheen_snk_notes">
+        <item>Down-jab is fairly good vs most transitions.</item>
+    </string-array>
+
+    <string-array name="steve_neutral_notes">
+        <item>Duck a lot. Steve players hate that. After they switch to mids start stepping.</item>
+    </string-array>
+
+    <string-array name="victor_neutral_notes">
+        <item>After WR2 or WR1+2, contest with a jab. If they use options that beat jab, SSL.</item>
+    </string-array>
+
+    <string name="xiaoyu_bt_name">Backturn</string>
+    <string name="xiaoyu_bt_code">BT</string>
+    <string-array name="xiaoyu_bt_notes">
+        <item>Duck throw on reaction. Do nothing if throw doesn\'t come out.</item>
+    </string-array>
+
+    <string-array name="yoshimitsu_neutral_notes">
+        <item>After FF4, punish with a jab or 12f mid.</item>
+    </string-array>
+
+    <string name="zafina_trt_name">Tarantula Stance</string>
+    <string name="zafina_trt_code">TRT</string>
+    <string-array name="zafina_trt_notes">
+        <item>After WR1+2 into stance, down-jab or LP.</item>
+    </string-array>
+
+    <string name="eddy_hsp_name">Bananiera</string>
+    <string name="eddy_hsp_code">HSP</string>
+    <string-array name="eddy_hsp_notes">
+        <item>After WR3, PC or jab. If he does HSP.4, SSR afterward.</item>
+    </string-array>
 </resources>
